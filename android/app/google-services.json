@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "991307126024",
+    "project_id": "ellemoratest-a7628",
+    "storage_bucket": "ellemoratest-a7628.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991307126024:android:dd04f95309bf20373a88bd",
+        "android_client_info": {
+          "package_name": "com.example.almora_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991307126024-t7tceqitqg4tl1ckscqjg2dhnmefhqr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDDNcx9_BMi73_urvFY7CfYNJo3g9Ps2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991307126024-t7tceqitqg4tl1ckscqjg2dhnmefhqr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
