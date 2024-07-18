@@ -22,15 +22,15 @@ A new Flutter project.
    a. manually with emailId and password<br/>
    b. Signup with Google<br/>
    <br/>
-3. second, you can Login with signup credential.<br/>
+2. second, you can Login with signup credential.<br/>
    a. Login with credential like email and password.<br/>
    b. Login with Google.<br/>
 <br/>
-4. after Login you move to home page where show product List<br/>
-5. on home page earch any product.<br/>
-6. when will you click on any product, then move product detail page and show Detail of select product.<br/>
-7. change the Theme toggle inside the Drawer.<br/>
-8. in the home page in App Bar show Power icon when you click on this for LOGOUT then move to Login Page.<br/>
+3. after Login you move to home page where show product List<br/>
+4. on home page earch any product.<br/>
+5. when will you click on any product, then move product detail page and show Detail of select product.<br/>
+6. change the Theme toggle inside the Drawer.<br/>
+7. in the home page in App Bar show Power icon when you click on this for LOGOUT then move to Login Page.<br/>
 
 <br>
 <h4>2. All Page in Mobile View</h4>
