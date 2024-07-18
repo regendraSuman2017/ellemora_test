@@ -16,6 +16,9 @@ A new Flutter project.
 <p><h4>3. If you want to run this project in  Debuge mode please provide SHA-1 & SHA-256 Key of System</h4></p>
 <br>
 
+<p><h4>4. Instruction for App Guidance</h4></p>
+<br>
+
 1. First, you need to signup<br/>
    a. manually with emailId and password<br/>
    b. Signup with Google<br/>
