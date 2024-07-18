@@ -25,7 +25,6 @@ A new Flutter project.
 2. second, you can Login with signup credential.<br/>
    a. Login with credential like email and password.<br/>
    b. Login with Google.<br/>
-<br/>
 3. after Login you move to home page where show product List<br/>
 4. on home page earch any product.<br/>
 5. when will you click on any product, then move product detail page and show Detail of select product.<br/>
