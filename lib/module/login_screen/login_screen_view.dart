@@ -212,30 +212,6 @@ class LoginScreenView extends GetView<LoginScreenController>{
                     ),
                   ),
 
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Text(
-                    'Choose Your Theme',
-                    style: Theme.of(context).textTheme.headlineSmall,
-                  ),
-                  SizedBox(height: 20),
-                  ElevatedButton(
-                    onPressed: () {
-                      Get.changeTheme(ThemeData.light());
-                    },
-                    child: Text('Light Theme'),
-                  ),
-                  SizedBox(height: 10),
-                  ElevatedButton(
-                    onPressed: () {
-                      Get.changeTheme(ThemeData.dark());
-                    },
-                    child: Text('Dark Theme'),
-                  ),
-                ],
-              ),
-
 
                   const SizedBox(height: 20),
                   Row(
