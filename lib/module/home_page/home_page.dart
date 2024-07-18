@@ -33,6 +33,47 @@ class HomePage extends GetView<HomePageController> {
                 child: const Icon(Icons.power_settings_new_outlined)),
           ],
         ),
+        drawer: Drawer(
+          child: ListView(
+            padding: EdgeInsets.zero,
+            children: <Widget>[
+              const DrawerHeader(
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                ),
+                child: Text(
+                  'Drawer Header',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 24,
+                  ),
+                ),
+              ),
+              ListTile(
+                leading: const Icon(Icons.home),
+                title: const Text('Home'),
+                onTap: () {
+                  // Navigate to home screen or perform action
+                  Navigator.pop(context); // Closes the drawer
+                },
+              ),
+             Obx(()=> ListTile(
+                leading: const Icon(Icons.brightness_6), // Icon for theme toggle
+                title: const Text('Change Theme'),
+                trailing:   Switch(
+                  value: controller.isSwitched.value ,
+                  onChanged: (value) {
+                    // Update the state of switch
+                    controller.isSwitched.value  = value;
+                    (value==true)? Get.changeTheme(ThemeData.dark()): Get.changeTheme(ThemeData.light());
+
+                  },
+                ),
+             )
+              ),
+            ],
+          ),
+        ),
 
         body: Column(
           children: [

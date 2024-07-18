@@ -41,11 +41,11 @@ class ProductDetailController extends GetxController {
   RxString description=''.obs;
   RxString price=''.obs;
   @override
-  void onInit() {
+  void onInit() async{
     super.onInit();
 
     dynamic args = Get.arguments;
-    final int id = args[0]['id'];
+    final int id = await args[0]['id'];
     productsStream = _streamController.stream;
     getSelectProducts(id);
 

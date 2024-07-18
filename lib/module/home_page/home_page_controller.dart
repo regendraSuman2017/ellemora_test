@@ -23,12 +23,14 @@ class HomePageController extends GetxController {
   TextEditingController searchText = TextEditingController();
 
   RxBool isLoading = false.obs;
+  RxBool isSwitched = false.obs;
 
   @override
   void onInit() {
     super.onInit();
     productsStream = _streamController.stream;
     getAllProducts();
+
   }
 
   @override
