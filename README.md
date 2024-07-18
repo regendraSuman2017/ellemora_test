@@ -8,9 +8,12 @@ A new Flutter project.
 <a href="https://regendraellemoratest.netlify.app/">Click here</a>
 </p>
 
-<p><h4>1. Click to link for download in Mobile</h4>
+<p><h4>2. Click to link for download in Mobile</h4>
 <a href="https://drive.google.com/file/d/1ouyXpMu0AoRL2oZTjGhltycaNLUsJjwr/view?usp=sharing">Click here</a>
 </p>
+<br>
+
+<p><h4>3. If you want to run this project in  Debuge mode please provide SHA-1 & SHA-256 Key of System</h4></p>
 <br>
 
 1. First, you need to signup<br/>
