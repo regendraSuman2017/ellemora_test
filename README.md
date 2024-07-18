@@ -17,7 +17,6 @@ A new Flutter project.
 <br>
 
 <p><h4>4. Instruction for App Guidance</h4></p>
-<br>
 
 1. First, you need to signup<br/>
    a. manually with emailId and password<br/>
