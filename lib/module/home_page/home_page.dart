@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:almora_test/data/model/getAllProduct_response.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 import 'home_page_controller.dart';
 
 class HomePage extends GetView<HomePageController> {
@@ -66,7 +65,6 @@ class HomePage extends GetView<HomePageController> {
                     // Update the state of switch
                     controller.isSwitched.value  = value;
                     (value==true)? Get.changeTheme(ThemeData.dark()): Get.changeTheme(ThemeData.light());
-
                   },
                 ),
              )
